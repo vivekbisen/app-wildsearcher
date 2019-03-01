@@ -1,5 +1,5 @@
 class AddDescriptionToCars < ActiveRecord::Migration[5.2]
   def change
-    add_column :cars, :description, :text
+    add_column :cars, :description, :string
   end
 end

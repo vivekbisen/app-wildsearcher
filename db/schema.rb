@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2019_03_01_043503) do
     t.string "vin"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.text "description"
+    t.string "description"
   end
 
 end
