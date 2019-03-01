@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+
+development:
+  <<: *default
+  username: vivekbisen
+  database: app-wildsearcher
+test:
+  <<: *default
+  username: vivekbisen
+  database: app-wildsearcher-test
+
+production:
+  <<: *default
+  username: vivekbisen
+  database: app-wildsearcher
